@@ -2,6 +2,12 @@
 PORTNET Incident Resolver - Streamlit Web Application
 Main entry point for the web interface
 """
+import sys
+from pathlib import Path
+
+# Add src to path
+sys.path.insert(0, str(Path(__file__).parent / 'src'))
+
 import streamlit as st
 import sys
 from pathlib import Path
