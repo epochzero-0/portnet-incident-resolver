@@ -255,7 +255,3 @@ Code style: PEP 8, type hints, docstrings.
 - Error message
 
 **Questions?** Check README.md first, then ask team.
-
----
-
-That's it. Everything else is in the code itself (which is well-commented).
