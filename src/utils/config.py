@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Project root directory
-PROJECT_ROOT = Path(__file__).parent.parent.parent
+PROJECT_ROOT = Path(os.getcwd())
 
 # Data directories
 DATA_DIR = PROJECT_ROOT
